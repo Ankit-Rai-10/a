@@ -1,0 +1,41 @@
+Naïve Bayes Classifier Algorithm
+o	Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
+o	It is mainly used in text classification that includes a high-dimensional training dataset.
+o	Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions.
+o	It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+o	Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
+Why is it called Naïve Bayes?
+The Naïve Bayes algorithm is comprised of two words Naïve and Bayes, Which can be described as:
+o	Naïve: It is called Naïve because it assumes that the occurrence of a certain feature is independent of the occurrence of other features. Such as if the fruit is identified on the bases of color, shape, and taste, then red, spherical, and sweet fruit is recognized as an apple. Hence each feature individually contributes to identify that it is an apple without depending on each other.
+o	Bayes: It is called Bayes because it depends on the principle of Bayes' Theorem.
+Bayes' Theorem:
+o	Bayes' theorem is also known as Bayes' Rule or Bayes' law, which is used to determine the probability of a hypothesis with prior knowledge. It depends on the conditional probability.
+o	The formula for Bayes' theorem is given as:
+ 
+Where,
+P(A|B) is Posterior probability: Probability of hypothesis A on the observed event B.
+P(B|A) is Likelihood probability: Probability of the evidence given that the probability of a hypothesis is true.
+P(A) is Prior Probability: Probability of hypothesis before observing the evidence.
+P(B) is Marginal Probability: Probability of Evidence.
+
+
+Working of Naïve Bayes' Classifier:
+Working of Naïve Bayes' Classifier can be understood with the help of the below example:
+Suppose we have a dataset of weather conditions and corresponding target variable "Play". So using this dataset we need to decide that whether we should play or not on a particular day according to the weather conditions. So to solve this problem, we need to follow the below steps:
+1.	Convert the given dataset into frequency tables.
+2.	Generate Likelihood table by finding the probabilities of given features.
+3.	Now, use Bayes theorem to calculate the posterior probability.
+Advantages of Naïve Bayes Classifier:
+o	Naïve Bayes is one of the fast and easy ML algorithms to predict a class of datasets.
+o	It can be used for Binary as well as Multi-class Classifications.
+o	It performs well in Multi-class predictions as compared to the other Algorithms.
+o	It is the most popular choice for text classification problems.
+Disadvantages of Naïve Bayes Classifier:
+o	Naive Bayes assumes that all features are independent or unrelated, so it cannot learn the relationship between features.
+Applications of Naïve Bayes Classifier:
+o	It is used for Credit Scoring.
+o	It is used in medical data classification.
+o	It can be used in real-time predictions because Naïve Bayes Classifier is an eager learner.
+o	It is used in Text classification such as Spam filtering and Sentiment analysis.
+
+
